@@ -25,7 +25,7 @@ SECRET_KEY = 'ew=n_-hac^@#76bl+*ai2mkdg@i@j225ewxyl37a(fce0c2o#c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['izik.pythonanywhere.com']
 
 
 # Application definition
