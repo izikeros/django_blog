@@ -10,7 +10,7 @@ class Post(models.Model):
         default=timezone.now)
     published_date = models.DateTimeField(
         blank=True, null=True)
-    category = models.ForeignKey('Category', blank=True, null=True)
+    category = models.ForeignKey('Category')
 
     def publish(self):
         self.published_date = timezone.now()
