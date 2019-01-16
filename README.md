@@ -17,7 +17,7 @@ activate virtualenv and install required packages:
 pip install -r requirements.txt
 ```
 
-run the blog locally:
+make migrations, then run the blog locally:
 ```
 manage.py runserver
 ```
